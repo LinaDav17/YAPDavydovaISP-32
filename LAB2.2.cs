@@ -10,8 +10,8 @@ class Tree
         {
             for (int j = 0; j <= i; j++)
             {
-                string branch = new String('*', j);
-                Console.WriteLine(branch.PadLeft(n + 3) + "*" + branch);
+                string b = new String('*', j);
+                Console.WriteLine(b.PadLeft(n + 3) + "*" + b);
             }
         }
     }
