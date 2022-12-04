@@ -1,7 +1,7 @@
 using System;
+using System.Linq;
 
-public class Program
-{
+
     class Money
     {
         public string _rub = "р.", _kop = "коп.";
@@ -46,6 +46,8 @@ public class Program
         //    return Money sum;
         //}
     }
+public class Program
+{
     static void Main()
     {
         int rub = 0, kop = 0;
