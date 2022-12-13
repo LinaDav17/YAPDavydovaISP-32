@@ -38,10 +38,7 @@ namespace ConsoleApp3
     }
    class Surprise
     {
-        public static void RunMe()
-        {
-          
-        }
+        public static void RunMe() { }
     }
     class Program
     {
